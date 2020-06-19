@@ -49,7 +49,6 @@ header {
   width: 100%;
   background: #e7e9eb;
   height: 2px;
-  
 }
 
 .card-body {
@@ -78,8 +77,8 @@ header {
   border: none;
   background-color: rgb(42, 82, 92);
   border-radius: 25px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(236, 221, 221, 0.2) 0px 1px 1px
-    0px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(236, 221, 221, 0.2) 0px
+    1px 1px 0px;
   color: hsl(0, 0%, 100%);
   display: inline-block;
   font-size: 22px;
@@ -119,7 +118,7 @@ button[disabled] {
   resize: none;
   overflow: hidden;
 }
-
+/* media queries for responsive design output */
 @media (max-width: 690px) {
   .btn {
     font-size: 1rem;

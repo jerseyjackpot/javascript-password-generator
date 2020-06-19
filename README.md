@@ -1,17 +1,30 @@
-Password generator
+# Password generator
 
-I have created this random password generator using Javascript. The html layout is a responsive design using a Bootstrap stylesheet
+I have created this random password generator using HTML, CSS, and Javascript. 
+The html layout is a responsive design using a Bootstrap stylesheet.
 
-Features:
-One HTML Pages
-    Index.html
-    Contains basic user input items and buttons with divs and ids
+----------------------------
+#### Link Here:
 
-One CSS Page
+https://jerseyjackpot.github.io/javascript-password-generator/
 
-Style.css
-    Contains centering and styling for html user input features
 
-One Javascript Page 
-    Contains Variables, including arrays, and for loops for password generation and criteria selection
-    
+# Features:
+
+
+## One HTML Page
+
+### index.html
+* Contains basic user input items and buttons with divs and ids
+
+
+## One CSS Page
+
+### style.css
+* Contains centering and styling for html user input features
+
+
+## One Javascript Page
+
+### script.js
+* Contains Variables, including arrays, and for loops for password generation and criteria selection

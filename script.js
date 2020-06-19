@@ -11,21 +11,20 @@ function writePassword() {
 }
 // generatePassword function below
 function generatePassword() {
-
   //prompt for the length and turn string to number
   var passwordLength = prompt(
     "How long would you like your password? Pick a number between 8 and 128."
   );
   var confirmLength = parseInt(passwordLength);
   console.log(confirmLength);
-  
+
   // length validation
   if (confirmLength < 8 || confirmLength > 128 || isNaN(confirmLength)) {
     alert("Incorrect number, please generate again!");
     return;
   }
 
-  // List of variables and array for the password criteria  
+  // List of variables and array for the password criteria
   var collectionValidChars = [];
   var abcCapsArr = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
   var abcLowerArr = "abcdefghijklmnopqrstuvwxyz".split("");
@@ -71,8 +70,8 @@ function generatePassword() {
     alert("You must choose at least one Character Type! Please generate again");
     return;
   }
-  
-  // using the specified length and the 4 criteria, create valid password using a for loop and variable for the password 
+
+  // using the specified length and the 4 criteria, create valid password using a for loop and variable for the password
   var randomPassword = "";
   for (var i = 0; i < confirmLength; i++) {
     collectionValidChars[
