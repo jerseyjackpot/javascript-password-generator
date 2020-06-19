@@ -9,7 +9,7 @@ The html layout is a responsive design using a Bootstrap stylesheet.
 https://jerseyjackpot.github.io/javascript-password-generator/
 
 #### Screenshot Here:
-/Users/djxfixi8/javascript-password-generator/Screen Shot 2020-06-19 at 3.47.05 PM.png
+[/Users/djxfixi8/javascript-password-generator/Screen Shot 2020-06-19 at 3.47.05 PM.png](url)
 
 # Features:
 
